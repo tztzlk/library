@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vitual Library</h1> 
+            <div id="newBtn-Container">
+               <button id="newBtn">+ Add Book</button>    
+            </div>
+        </header>
+</div>
+<div id="popUp">
+    <form id='form' action='/Script.js'>
+       <legend>New Book</legend>
+        <span class="close">&times;</span>
+        <div id='textInput'> 
+            <p class="">title</p>
+            <input type='text' id='title' name='title' placeholder='Title'>
+            <p>author</p>
+            <input type='text' id='author' name='author' placeholder='Author'>
+            <p>pages </p>
+            <input type='text' id='pages' name='pages' placeholder='Pages'>
+        </div>
+        <div id='checkBox'>
+            <p><label >Read: </label><input type='checkbox' id='read' name='read' value='yes' placeholder="0"></p>
+        </div>
+        <button type='submit' form='form' id='addBtn'>Add</button>
+    </form>  
+</div>
+  <div id="library">
+    
+  </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

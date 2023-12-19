@@ -1,0 +1,140 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    background-color: #5f9ea0;
+  
+}
+p{
+  font-size: 24px;
+}
+header{
+    
+    background-color: #2f4f4f;
+    padding: 2%;
+    
+}
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+#newBtn-Container{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+#popUp{
+  
+  
+display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  font-size: 30px;
+
+}
+
+
+#form{
+  
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+   
+}
+
+#title, #author, #pages{
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid black;
+ 
+}
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    float: right ;
+ }
+    
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  #newBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 3px black;
+  }
+  #addBtn{
+    padding: 5%;
+    width: 100%; 
+    background-color: rgba(21, 129, 129, 0.87);
+    border-radius: 8px;
+    border: none;
+    color: #fefefe;
+    font-size: 20px;
+    margin-top: 6%;
+}
+legend{
+  color:  rgba(21, 129, 129, 0.87);
+}
+.book-card{
+  display: flex;
+  
+  background-color: #fbd082;
+  border: 5px solid black;
+  width: 20%;
+  height: 300px;
+  margin: 2%;
+  border-radius: 25px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+#library{
+  display: flex;
+  flex-wrap: wrap;
+}
+.remove-btn{
+    padding: 15px;
+    font-size: 20px;
+    font-style: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.whopages , .read-status ,.title,.author{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
